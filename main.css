@@ -1,0 +1,60 @@
+@charset "UTF-8";
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+a{
+  text-decoration: none;
+}
+ul{list-style: none;}
+.wrap {
+  width: 1200px;
+}
+header {
+  background-color: rgb(23, 73, 73);
+  display: block;
+  color: #ffffff;
+  height: 100px;
+}
+.logo1 {
+  margin: 30px 30px 10px 30px;
+  float: left;
+}
+
+header > ul{
+  float: right;
+}
+header > ul > li {
+  text-align: center;
+  list-style: none;
+  float: left;
+  margin: 40px 50px 10px 50px;
+}
+.main .contents {
+  width: 1000px;
+  margin: 50px auto;
+}
+.healing {
+  background-color: rgb(204, 180, 226);
+  width: 1200px;
+  display: inline-block;
+}
+.schedule {
+}
+img {
+  float: left;
+  margin: 20px;
+}
+.schedule > ul {
+  list-style: none;
+}
+.activity {
+  background-color: rgb(245, 235, 164);
+  width: 1200px;
+  display: inline-block;
+}
+.footer > ul > li {
+  list-style: none;
+  float: left;
+}

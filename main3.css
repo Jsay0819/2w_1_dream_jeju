@@ -1,0 +1,200 @@
+@charset "UTF-8";
+
+@import url("https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=East+Sea+Dokdo&family=Nanum+Pen+Script&family=Single+Day&family=Song+Myung&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=East+Sea+Dokdo&family=Single+Day&family=Song+Myung&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Nanum+Myeongjo&family=Song+Myung&display=swap") * {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  outline-style: none;
+  @font-face {
+    font-family: "SBAggroB";
+    src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2108@1.1/SBAggroB.woff")
+      format("woff");
+    font-weight: normal;
+    font-style: normal;
+  }
+}
+@font-face {
+  font-family: "KOTRAHOPE";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2110@1.0/KOTRAHOPE.woff2")
+    format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "GangwonEduPowerExtraBoldA";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2201-2@1.0/GangwonEduPowerExtraBoldA.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+
+html {
+  font-size: 16px;
+}
+body {
+  font-family: "Nanum Gothic", "Noto Sans KR", sans-serif;
+  color: #303030;
+  line-height: 1.6;
+  letter-spacing: -0.3px;
+  word-break: keep-all;
+}
+
+#container {
+  width: 1500px;
+  height: 1200px;
+  margin: 0 auto;
+  background-color: #ffab56;
+}
+
+/* 상단 */
+header {
+  width: 100%;
+  height: 100px;
+  background-color: #fadcbb;
+}
+.logo {
+  float: left;
+  width: 400px;
+  height: 50px;
+  line-height: 60px;
+  margin-left: 50px;
+  font-weight: 900;
+  font-size: 18px;
+  font-family: "GangwonEduPowerExtraBoldA";
+}
+.logo > h1 > a {
+  color: #ff7b00;
+}
+.topMenu {
+  padding: 20px;
+  width: 1000px;
+  margin: 0 auto;
+  height: 60px;
+}
+.topMenu > li {
+  float: left;
+}
+.topMenu > li > a {
+  display: block;
+  font-size: 25px;
+  color: rgb(28, 87, 155);
+  font-weight: 600;
+  padding: 10px 52px;
+}
+.topMenu > li > a:hover {
+  color: rgb(255, 145, 0);
+}
+
+/* 메인 */
+
+img {
+  width: 45%;
+  border: 0;
+  vertical-align: middle;
+}
+
+.detail img {
+  float: left;
+  margin: 0 40px 40px 0;
+  border-radius: 20px;
+}
+.contents {
+  width: 1400px;
+  margin: 50px auto;
+}
+main > section {
+  margin-top: 30px;
+  width: 1200px;
+}
+.new {
+  width: 1400px;
+  height: 520px;
+}
+.detail-right {
+  border-radius: 30px;
+  font-family: "GangwonEduPowerExtraBoldA";
+  background-color: #fffded;
+  margin-top: 0px;
+  width: 650px;
+  height: 370px;
+  float: right;
+  padding: 40px;
+}
+main > .new > h1 {
+  margin-bottom: 20px;
+  font-size: 40px;
+  line-height: 30px;
+  color: rgb(68, 60, 52);
+  font-family: "Song Myung", serif;
+}
+.episode > ul > li > h1 {
+  display: inline-block;
+  width: 300px;
+  margin-bottom: 20px;
+  font-size: 40px;
+  line-height: 30px;
+  color: rgb(68, 60, 52);
+  font-family: "Song Myung", serif;
+}
+.episode > ul > li {
+  float: left;
+}
+.detail p {
+  line-height: 40px;
+  font-size: 28px;
+}
+.episode > ul > li > .detail > a > img {
+  width: 600px;
+}
+.contents > .new > .detail > .detail-right > .tx1 {
+  margin-top: 25px;
+  font-size: 21px;
+  line-height: 20px;
+}
+.episode {
+  width: 1400px;
+  height: 400px;
+  padding: 
+}
+.episode > ul > li > .detail .img1{
+    padding: 0 50px 0 0;
+}
+
+/* 하단 */
+footer {
+  width: 1500px;
+  height: 100px;
+  border-top: 2px solid #222;
+  margin: 0 auto;
+  background-color: #fadcbb;
+}
+.bottomMenu {
+  width: 100%;
+  height: 20px;
+  margin: 0 auto;
+}
+.bottomMenu > ul {
+  width: 500px;
+  height: 50px;
+  margin: 0 auto;
+  text-align: center;
+}
+.bottomMenu > ul > li {
+  float: left;
+  padding: 2px 20px;
+  border-right: 2px dotted;
+  font-size: 20px;
+  margin-top: 25px;
+}
+.bottomMenu > ul > li:last-child {
+  border: none;
+}
